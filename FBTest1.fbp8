@@ -1,0 +1,130 @@
+﻿project
+begin
+  projectid = {53CDC04D-E0B5-4CD3-B5D7-9EEEEA07B933}
+  target
+  begin
+    name = Default
+    targetid = {C7690CD9-B44A-4E38-A744-2C68EAB34152}
+    rootaction
+    begin
+      action.delphi.build
+      begin
+        allowimplicitimport = true
+        alwaysuseconditionalsfromdof = false
+        autoincbuild = true
+        autoupdatefileversion = true
+        autoupdateproductversion = false
+        buildall = true
+        buildversion = 0
+        codepage = 1252
+        compileprojectresources = false
+        compileridl = true
+        configname = Release
+        debugversionnumbers = false
+        delphiversion = Delphi6
+        enabletimeout = false
+        eurekalogverboselogging = false
+        frameworktype = VCL
+        hintsaserror = false
+        iconfile = "D:\\FB Test\\Project\\mainicon.ico"
+        id = {AA68BBCD-BFB1-41C4-B476-D8823976176E}
+        includecompiledate = false
+        includemanifest = false
+        includeverinfo = false
+        isdebug = false
+        isdll = false
+        isprerelease = false
+        isprivate = false
+        isspecial = false
+        keepcfg = false
+        linkproductversiontofileversion = true
+        locale = 3081
+        majorversion = 0
+        minorversion = 0
+        platform = Win32
+        platformsdktype = ProjectSDK
+        projectfile = "D:\\FB Test\\Project\\FBProj.dpr"
+        regenerateresource = true
+        releaseversion = 0
+        resourcecompilertype = rcBorland
+        ridloutputsamefolder = true
+        startingdir = "D:\\FB Test\\Project\\"
+        timeoutlength = 1
+        updatedoffile = false
+        updatepackagesource = false
+        updateversioninfokeys = false
+        useeurekalogcompiler = false
+        usefastdcccompiler = false
+        useprojectsettings = []
+        usepropertyset = false
+        useversionfromdof = false
+        verboseoutput = false
+        versioninfokeys = "CompanyName\=" +
+                          "FileDescription\=" +
+                          "FileVersion\=0.0.0.0" +
+                          "InternalName\=" +
+                          "LegalCopyright\=" +
+                          "LegalTrademarks\=" +
+                          "OriginalFilename\=" +
+                          "ProductName\=" +
+                          "ProductVersion\=0.0.0.0" +
+                          "Comments\=" +
+                          ""
+        warningsaserror = false
+        workaroundd5bug = false
+        delphi.compileroptions
+        begin
+          alwaysuseconditionalsfromdof = false
+          alwaysusedelphilibrarypath = false
+          alwaysusedofsearchpath = false
+          assertions = true
+          assignableconst = false
+          booleval = false
+          compilerwarnings = "-w-UNSAFE_TYPE\=0" +
+                             "-w-UNSAFE_CODE\=0" +
+                             "-w-UNSAFE_CAST\=0" +
+                             ""
+          consoleapp = false
+          debuginfo = true
+          definitionsonly = true
+          emitruntimetypeinformation = false
+          exportallsymbols = false
+          extendedsyntax = true
+          externaltd32 = true
+          frameworktype = None
+          generatedocumentation = false
+          generatehpp = false
+          hugestrings = true
+          imagebase = 4194304
+          includenamespaces = false
+          includeremotesymbols = false
+          includetd32 = false
+          inlining = inOn
+          iochecking = true
+          librarypath = "$(DELPHI)\\Lib;$(DELPHI)\\Bin;$(DELPHI)\\Imports;$(DELPHI)\\Projects\\Bpl;w:\\entrprse\\packages;$(Delphi)\\Lib;$(Delphi)\\Lib\\Delphi2;$(Delphi)\\Bin;$(Delphi)\\Imports;$(Delphi)\\Projects\\Bpl;W:\\ENTRPRSE\\Packages;W:\\COMPON\\TSpellers;W:\\COMPON\\TPOWER\\ABBREV3;W:\\COMPON\\TMS\\TMSPack02;W:\\COMPON\\RAVE4\\Source;W:\\ENTRPRSE\\Funcs;W:\\COMPON\\MultiList;W:\\COMPON\\MultiList\\DevComp\\ExDatasets;W:\\COMPON\\ShellTree;W:\\COMPON\\BlowFish\\delphi6;W:\\COMPON\\Patches\\VCFI32;W:\\COMPON\\Standard;W:\\SBSLIB\\WIN\\WIN32;W:\\COMPON\\TGMXML;W:\\COMPON\\HALCYON6\\SOURCE;W:\\ENTRPRSE\\FormTK\\PrevComp;W:\\COMPON\\psvDialogs;$(ProgramFiles)\\madCollection\\madBasic\\Delphi 6;$(ProgramFiles)\\madCollection\\madDisAsm\\Delphi 6;$(ProgramFiles)\\madCollection\\madExcept\\Delphi 6;$(ProgramFiles)\\madCollection\\madExcept\\..\\Plugins;$(ProgramFiles)\\madCollection\\madKernel\\Delphi 6;$(ProgramFiles)\\madCollection\\madSecurity\\Delphi 6;$(ProgramFiles)\\madCollection\\madShell\\Delphi 6;w:\\COMPON\\zexmlss;w:\\COMPON\\zexmlss\\src;C:\\Program Files (x86)\\madCollection\\madBasic\\Delphi 6;C:\\Program Files (x86)\\madCollection\\madDisAsm\\Delphi 6;C:\\Program Files (x86)\\madCollection\\madExcept\\Delphi 6;C:\\Program Files (x86)\\madCollection\\madExcept\\..\\Plugins;C:\\Program Files (x86)\\madCollection\\madKernel\\Delphi 6;C:\\Program Files (x86)\\madCollection\\madSecurity\\Delphi 6;C:\\Program Files (x86)\\madCollection\\madShell\\Delphi 6;W:\\COMPON\\SHA3_256Hash;W:\\COMPON\\SoftGems\\Virtual Treeview\\Source;W:\\COMPON\\SoftGems\\Theme Manager\\Source;C:\\Develop\\Borland\\Delphi6\\VCFI32;W:\\COMPON\\antLabels;C:\\Develop\\Borland\\Delphi6\\Source\\Samples;W:\\COMPON\\BlowFish\\Source;C:\\Develop\\DevExpress VCL\\Package;D:\\Delphi Component\\Almediadev BusinessSkinForm VCL;D:\\Delphi Component\\Almediadev DynamicSkinForm v14.10;D:\\Delphi Component\\Almediadev BusinessSkinForm VCL\\skinadapter;D:\\Delphi Component\\Almediadev BusinessSkinForm VCL\\skinbuilder;D:\\Delphi Component\\Almediadev DynamicSkinForm v14.10\\skinadapter;D:\\Delphi Component\\Almediadev DynamicSkinForm v14.10\\skinadapter\\DevEx\\11_1.6;D:\\Delphi Component\\Almediadev BusinessSkinForm VCL\\skinadapter\\DevEx\\11_1.6;C:\\Develop\\Borland\\Delphi6\\Source\\Source_Debug;W:\\ENTRPRSE\\R&D\\GDPR;W:\\ENTRPRSE\\R&D\\Intrastat;w:\\compon\\t1;d:\\testpkg"
+          linkeroutput = 0
+          localsymbols = true
+          mapfile = 0
+          maxstacksize = 1048576
+          minstacksize = 16384
+          openstrings = true
+          optimisation = true
+          overflowchecking = false
+          rangechecking = false
+          recordfieldalign = fa8
+          referenceinfo = true
+          safedivide = false
+          showhints = true
+          showwarnings = true
+          stackframes = false
+          stringchecks = true
+          typedpointers = false
+          unitaliases = WinTypes\=Windows;WinProcs\=Windows;DbiTypes\=BDE;DbiProcs\=BDE;DbiErrs\=BDE;
+          usedebugdcu = false
+          usepackages = false
+          varstringchecks = true
+        end
+      end
+    end
+  end
+end
