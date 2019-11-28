@@ -7,34 +7,48 @@ begin
     targetid = {C7690CD9-B44A-4E38-A744-2C68EAB34152}
     rootaction
     begin
-      action.interactive.promptforvariablesenh
+      action.ifthen
       begin
-        dialogcaption = "Infidels must die!!!"
-        dialogwidth = 400
-        expanduserenteredvalues = true
-        expandvar = true
-        failonerror = false
-        id = {85CE619B-6801-476B-867A-250074CEADC7}
-        promptwordwrap = false
-        sortorder = "v_T1" +
-                    "v_T2" +
-                    ""
-        timeout = 0
-        prompt.item
+        expandactionlogtitle = false
+        id = {2D7C7F00-24CA-4664-AFE9-241847DF1AB7}
+        lhsstoragestring = "%ISINTERACTIVEBUILD%" +
+                           ""
+        operatorsstoragestring = "\=" +
+                                 ""
+        resultinlogtitle = true
+        rhsstoragestring = "True" +
+                           ""
+        shortcircuitevaluation = true
+        termjoiner = jwOr
+        action.interactive.promptforvariablesenh
         begin
-          caption = v_T1
-          inuse = true
-          name = v_T1
-          paramtype = ptText
-          selectall = false
-        end
-        prompt.item
-        begin
-          caption = v_T2
-          inuse = true
-          name = v_T2
-          paramtype = ptText
-          selectall = false
+          dialogcaption = "Infidels must die!!!"
+          dialogwidth = 400
+          expanduserenteredvalues = true
+          expandvar = true
+          failonerror = false
+          id = {85CE619B-6801-476B-867A-250074CEADC7}
+          promptwordwrap = false
+          sortorder = "v_T1" +
+                      "v_T2" +
+                      ""
+          timeout = 0
+          prompt.item
+          begin
+            caption = v_T1
+            inuse = true
+            name = v_T1
+            paramtype = ptText
+            selectall = false
+          end
+          prompt.item
+          begin
+            caption = v_T2
+            inuse = true
+            name = v_T2
+            paramtype = ptText
+            selectall = false
+          end
         end
       end
       action.smtp.send
