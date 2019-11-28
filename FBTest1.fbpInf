@@ -1,0 +1,21 @@
+<project>
+  <watches/>
+  <collapsedNodes></collapsedNodes>
+  <actions>
+    <action id="{AA68BBCD-BFB1-41C4-B476-D8823976176E}">
+      <Description>Build Delphi Win32 [ D:\FB Test\Project\FBProj.dpr ]</Description>
+      <BuildVersion>0</BuildVersion>
+    </action>
+  </actions>
+  <propertysets/>
+  <variables/>
+  <properties>
+    <Author></Author>
+    <Notes>
+      <![CDATA[]]>
+    </Notes>
+    <LastBuildRun>00:00:13</LastBuildRun>
+    <LastBuildStart>28/11/2019 10:30:43</LastBuildStart>
+    <LastBuildState>True</LastBuildState>
+  </properties>
+</project>

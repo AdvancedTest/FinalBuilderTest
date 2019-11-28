@@ -7,6 +7,111 @@ begin
     targetid = {C7690CD9-B44A-4E38-A744-2C68EAB34152}
     rootaction
     begin
+      action.interactive.promptforvariablesenh
+      begin
+        dialogcaption = "Infidels must die!!!"
+        dialogwidth = 400
+        expanduserenteredvalues = true
+        expandvar = true
+        failonerror = false
+        id = {85CE619B-6801-476B-867A-250074CEADC7}
+        promptwordwrap = false
+        sortorder = "v_T1" +
+                    "v_T2" +
+                    ""
+        timeout = 0
+        prompt.item
+        begin
+          caption = v_T1
+          inuse = true
+          name = v_T1
+          paramtype = ptText
+          selectall = false
+        end
+        prompt.item
+        begin
+          caption = v_T2
+          inuse = true
+          name = v_T2
+          paramtype = ptText
+          selectall = false
+        end
+      end
+      action.smtp.send
+      begin
+        authenticate = true
+        bccsource = asSpecify
+        copytosource = asSpecify
+        encryptedpassword = 09SYjOLCjRYtbXnM
+        host = smtp.office365.com
+        htmlmessage = false
+        id = {AE4A4787-3BFD-4459-95E4-6A724EE076AC}
+        logreceived = true
+        logsent = true
+        logsslnegotiation = false
+        pathofrecipientfile = D:\\Email_Recipients.ini
+        port = 587
+        recipientssource = asFromFile
+        replytosource = asSpecify
+        subject = "test FB"
+        useehlo = true
+        useglobaloptions = false
+        userid = advanced1210@outlook.com
+        usessl = true
+        usetls = utUseExplicitTLS
+        email.address
+        begin
+          address = advanced1210@outlook.com
+          addresstype = from
+          name = "Final Builder"
+        end
+        email.address
+        begin
+          addresstype = sender
+        end
+        email.list
+        begin
+          listtype = replyto
+        end
+        email.address
+        begin
+          addresstype = ReceiptRecipient
+        end
+        email.list
+        begin
+          listtype = recipients
+          email.address
+          begin
+            address = sanjay.sonani@oneadvanced.com
+          end
+        end
+        email.list
+        begin
+          listtype = copyto
+        end
+        email.list
+        begin
+          listtype = blindcopyto
+        end
+      end
+      action.variables.loadfromini
+      begin
+        createvarininiifnotexists = false
+        failifvariablenotdefined = true
+        failifvariablenotininifile = true
+        id = {A87E072A-2C21-4F6A-B494-1904B2E2BDB8}
+        ignorefilenotfound = false
+        inifile = D:\\Email_Recipients.ini
+        sectionname = FBVariables
+      end
+      action.variables.logvalues
+      begin
+        failifnotdefined = true
+        id = {C8572EF7-897F-4C54-AD07-EAE5897FF772}
+        logallvariables = false
+        variablestoragestring = "C_ReportingRecipients" +
+                                ""
+      end
       action.delphi.build
       begin
         allowimplicitimport = true
@@ -126,5 +231,21 @@ begin
         end
       end
     end
+  end
+  variable
+  begin
+    defaultvalue = sanjay.sonani@oneadvanced.com
+    name = C_ReportingRecipients
+    variablescope = vtProject
+  end
+  variable
+  begin
+    name = v_T1
+    variablescope = vtProject
+  end
+  variable
+  begin
+    name = v_T2
+    variablescope = vtProject
   end
 end
